@@ -1,0 +1,21 @@
+name: NoVoidFall
+description: $description
+prefix: [ WorldsGUI ]
+version: '${version}'
+
+main: net.clanimg.noVoidFall.NoVoidFall
+api-version: '1.21.11'
+load: POSTWORLD
+
+authors: [ WrobelXXL ]
+website: https://clan-img.net
+
+commands:
+  novoidfall:
+    description: Verwaltung für NoVoidFall
+    usage: /novoidfall set-spawn
+
+permissions:
+  novoidfall.command.setspawn:
+    description: Erlaubt das Setzen vom NoVoidFall-Spawn
+    default: op
